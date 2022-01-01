@@ -1,8 +1,9 @@
 ## Using Word2Vec for ‘Anomaly Detection’ in Windows Eventlogs
 ### _This is just a proof of concept, not a final product!_
 ---
-I used two different implementations of Word2Vec; the popular Gensim version and one built in Tensorflow.
-The goal was to reproduce the same results in both versions, but i could not really accomplish this.
+I used two different implementations of Word2Vec; [the popular Gensim version](https://github.com/Grrtzm/word2vec/blob/main/windows_eventlog_anomaly_detection_with_gensim_word2vec.ipynb) and [one built in Tensorflow](https://github.com/Grrtzm/word2vec/blob/main/windows_eventlog_anomaly_detection_with_tensorflow_word2vec.ipynb).
+The goal was to reproduce the same results in both versions, but i could not exactly reproduce the same results.
+Even more remarkable: After every training you get different 'Top 10' results, it varies every time. This applies for both the Gensim as well as the Tensorflow version.
 
 The Gensim version (based on gensim 4.12) is a bit of a black box. Tweaking the hyperparameters didn't give me better results.
 The Tensorflow version works better for me. Take a look at the results at the bottom of the Notebook.
