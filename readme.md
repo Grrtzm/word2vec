@@ -11,9 +11,13 @@ The Gensim delivers the same results every training.
 Take a look at the results at the bottom of both notebooks.
 For both models you can save the trained model. Using a saved model gives you consistent results.
 
+The graphs went missing. Please run the notebooks in Colab to see the Plotly graphs.
+
 The Gensim version (based on gensim 4.1.2) is a bit of a black box, but i trust it to look more like the original Word2Vec. It seems to produce more consistent results.
 
 Both were inspired on tutorials. You can find the links in the headers of my Jupyter Notebooks.
+
+I decided to only use the Gensim version and to discard the Tensorflow version for future research.
 
 -----
 ## Instructions for use
